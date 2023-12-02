@@ -4,6 +4,7 @@ const max_input_size = 10 * 1024 * 1024; // 10 MiB
 
 const all_days = [_]type{
     @import("./days/day01.zig"),
+    @import("./days/day02.zig"),
 };
 
 pub fn main() !void {
