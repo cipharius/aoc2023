@@ -2,7 +2,9 @@ const std = @import("std");
 
 const max_input_size = 10 * 1024 * 1024; // 10 MiB
 
-const all_days = [_]type{};
+const all_days = [_]type{
+    @import("./days/day01.zig"),
+};
 
 pub fn main() !void {
     var stdout = std.io.getStdOut().writer();
